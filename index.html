@@ -1,10 +1,8 @@
-<input id="a"> + <input id="b">
-<button onclick="add()">=</button>
-<p id="res"></p>
+<p id="text">Hello</p>
+<button onclick="change()">Change</button>
 <script>
-function add(){
-let a=parseInt(document.getElementById("a").value);
-let b=parseInt(document.getElementById("b").value);
-document.getElementById("res").innerText=a+b;
+function change(){
+document.getElementById("text").style.color="red";
+alert("Changed");
 }
 </script>
