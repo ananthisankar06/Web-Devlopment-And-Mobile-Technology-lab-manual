@@ -1,2 +1,10 @@
-<html><body><h2>Library</h2>
-<ul><li>Book1</li><li>Book2</li></ul></body></html>
+<input id="a"> + <input id="b">
+<button onclick="add()">=</button>
+<p id="res"></p>
+<script>
+function add(){
+let a=parseInt(document.getElementById("a").value);
+let b=parseInt(document.getElementById("b").value);
+document.getElementById("res").innerText=a+b;
+}
+</script>
